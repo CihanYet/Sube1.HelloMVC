@@ -8,5 +8,10 @@ namespace Sube1.HelloMVC.Controllers
         {
             return View();
         }
+
+        public ViewResult OgretmenListe()
+        {
+            return View();
+        }
     }
 }

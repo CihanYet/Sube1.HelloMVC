@@ -14,6 +14,7 @@ namespace Sube1.HelloMVC.Controllers
         public ViewResult OgrenciDetay(int id)
         {
             var ogrt = new Ogretmen { Ad = "Osman", Soyad = "Yılmaz", Ogretmenid = 1 };
+
             Ogrenci ogr = null;
             if (id == 1)
             {
@@ -35,6 +36,15 @@ namespace Sube1.HelloMVC.Controllers
             vm.Ders = new Ders { Dersid = 1, Dersad = "ProgTem", Kredi = 5 };
 
             return View(vm);
+        }
+
+        public ViewResult OgrenciListe()
+        {
+            var lst = new List<Ogrenci>();
+            lst.Add(new Ogrenci { Ad = "Ali", Soyad = "Veli", Numara = 123 });
+            lst.Add(new Ogrenci { Ad = "Ahmet", Soyad = "Mehmet", Numara = 456 });
+
+            return View(lst);
         }
     }
 }
