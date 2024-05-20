@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sube1.HelloMVC", "Sube1.HelloMVC\Sube1.HelloMVC.csproj", "{1F3825AD-858E-483D-8686-0D0A02186683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sube1.CollectionsApp", "Sube1.CollectionsApp\Sube1.CollectionsApp.csproj", "{C83F4F52-1773-49A1-B2E5-B7BC3DB37207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sube1.CollectionsApp", "Sube1.CollectionsApp\Sube1.CollectionsApp.csproj", "{C83F4F52-1773-49A1-B2E5-B7BC3DB37207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sube1.EntityApp", "Sube1.EntityApp\Sube1.EntityApp.csproj", "{E0145A6B-502B-4DD0-A795-160D49A2A4A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C83F4F52-1773-49A1-B2E5-B7BC3DB37207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C83F4F52-1773-49A1-B2E5-B7BC3DB37207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C83F4F52-1773-49A1-B2E5-B7BC3DB37207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0145A6B-502B-4DD0-A795-160D49A2A4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0145A6B-502B-4DD0-A795-160D49A2A4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0145A6B-502B-4DD0-A795-160D49A2A4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0145A6B-502B-4DD0-A795-160D49A2A4A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
